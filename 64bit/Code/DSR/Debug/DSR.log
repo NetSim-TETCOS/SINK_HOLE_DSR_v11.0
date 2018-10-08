@@ -1,0 +1,134 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  CheckRouteFound.c
+  DSR.c
+f:\fileexchangeprojectsv11\sink_hole_dsr_v11.0\64bit\code\dsr\dsr.c(122): warning C4013: 'fn_NetSim_DSR_MaliciousNode' undefined; assuming extern returning int
+f:\fileexchangeprojectsv11\sink_hole_dsr_v11.0\64bit\code\dsr\dsr.c(123): warning C4013: 'fn_NetSim_DSR_MaliciousProcessSourceRouteOption' undefined; assuming extern returning int
+f:\fileexchangeprojectsv11\sink_hole_dsr_v11.0\64bit\code\dsr\dsr.c(133): warning C4013: 'fn_NetSim_DSR_MaliciousRouteAddToCache' undefined; assuming extern returning int
+  MaintBuffer.c
+  Malicious.c
+  Network_Layer_Ack.c
+  PacketProcessing.c
+  RouteCache.c
+  RouteError.c
+  RouteReply.c
+  RouteRequest.c
+  SendBuffer.c
+  SourceRoute.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1202,5): warning MSB8012: TargetPath(F:\FileExchangeProjectsV11\SINK_HOLE_DSR_v11.0\64bit\Code\DSR\..\Dll\DSR.dll) does not match the Linker's OutputFile property value (F:\FileExchangeProjectsV11\SINK_HOLE_DSR_v11.0\64bit\Code\Dll\libDSR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1204,5): warning MSB8012: TargetName(DSR) does not match the Linker's OutputFile property value (libDSR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\Dll\DSR.lib and object ..\Dll\DSR.exp
+DSR.obj : error LNK2019: unresolved external symbol _IP_NETWORK_ADDRESS referenced in function _fn_NetSim_DSR_Run
+DSR.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_Finish_F referenced in function _fn_NetSim_DSR_Finish
+DSR.obj : error LNK2019: unresolved external symbol _set_dsr_curr referenced in function _fn_NetSim_DSR_Run
+RouteError.obj : error LNK2019: unresolved external symbol _dsr_get_curr_ip referenced in function _fn_NetSim_DSR_ForwardRERR
+RouteReply.obj : error LNK2001: unresolved external symbol _dsr_get_curr_ip
+RouteRequest.obj : error LNK2001: unresolved external symbol _dsr_get_curr_ip
+SourceRoute.obj : error LNK2001: unresolved external symbol _dsr_get_curr_ip
+DSR.obj : error LNK2001: unresolved external symbol _dsr_get_curr_ip
+Network_Layer_Ack.obj : error LNK2001: unresolved external symbol _dsr_get_curr_ip
+PacketProcessing.obj : error LNK2001: unresolved external symbol _dsr_get_curr_ip
+RouteCache.obj : error LNK2001: unresolved external symbol _dsr_get_curr_ip
+DSR.obj : error LNK2019: unresolved external symbol _dsr_get_curr_if referenced in function _fn_NetSim_DSR_Run
+DSR.obj : error LNK2019: unresolved external symbol _isDsrConfigured referenced in function _fn_NetSim_DSR_Run
+DSR.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_Init_F referenced in function _fn_NetSim_DSR_Init
+DSR.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_Configure_F referenced in function _fn_NetSim_DSR_Configure
+DSR.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_CopyPacket_F referenced in function _fn_NetSim_DSR_CopyPacket
+DSR.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_FreePacket_F referenced in function _fn_NetSim_DSR_FreePacket
+DSR.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_Metrics_F referenced in function _fn_NetSim_DSR_Metrics
+RouteRequest.obj : error LNK2019: unresolved external symbol __imp__NETWORK referenced in function _fn_NetSim_DSR_ProcessRREQ
+SendBuffer.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+SourceRoute.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+PacketProcessing.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RouteCache.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RouteError.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RouteReply.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+DSR.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+MaintBuffer.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Malicious.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Network_Layer_Ack.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+DSR.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+MaintBuffer.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RouteCache.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RouteReply.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RouteError.obj : error LNK2019: unresolved external symbol _fnpAllocateMemory_dbg referenced in function _fn_NetSim_DSR_GenerateRERR
+RouteReply.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+RouteRequest.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+SourceRoute.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+MaintBuffer.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Malicious.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Network_Layer_Ack.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+RouteCache.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+MaintBuffer.obj : error LNK2019: unresolved external symbol _fnpFreeMemory_dbg referenced in function _fn_NetSim_DSR_MaintTimeout
+RouteCache.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+SendBuffer.obj : error LNK2019: unresolved external symbol _list_alloc_dbg referenced in function _fn_NetSim_DSR_AddToSendBuffer
+MaintBuffer.obj : error LNK2001: unresolved external symbol _list_alloc_dbg
+Malicious.obj : error LNK2001: unresolved external symbol _list_alloc_dbg
+RouteCache.obj : error LNK2001: unresolved external symbol _list_alloc_dbg
+RouteRequest.obj : error LNK2001: unresolved external symbol _list_alloc_dbg
+MaintBuffer.obj : error LNK2019: unresolved external symbol _list_next referenced in function _fn_NetSim_DSR_AddToMaintBuffer
+RouteCache.obj : error LNK2001: unresolved external symbol _list_next
+RouteRequest.obj : error LNK2001: unresolved external symbol _list_next
+SendBuffer.obj : error LNK2001: unresolved external symbol _list_next
+SendBuffer.obj : error LNK2019: unresolved external symbol _list_add_last referenced in function _fn_NetSim_DSR_EmptySendBuffer
+MaintBuffer.obj : error LNK2001: unresolved external symbol _list_add_last
+Malicious.obj : error LNK2001: unresolved external symbol _list_add_last
+RouteCache.obj : error LNK2001: unresolved external symbol _list_add_last
+RouteRequest.obj : error LNK2001: unresolved external symbol _list_add_last
+RouteReply.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg referenced in function _fn_NetSim_DSR_GenerateRREP
+RouteRequest.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+SendBuffer.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+MaintBuffer.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+Malicious.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+Network_Layer_Ack.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+RouteError.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+MaintBuffer.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg referenced in function _fn_NetSim_DSR_AddToMaintBuffer
+MaintBuffer.obj : error LNK2019: unresolved external symbol _fnGetPacketSize referenced in function _fn_NetSim_DSR_RetransmitBuffer
+SendBuffer.obj : error LNK2001: unresolved external symbol _fnGetPacketSize
+MaintBuffer.obj : error LNK2019: unresolved external symbol _get_first_dest_from_packet referenced in function _fn_NetSim_DSR_AddToMaintBuffer
+RouteReply.obj : error LNK2019: unresolved external symbol _fnAddEvent_F referenced in function _fn_NetSim_DSR_ForwardRREP
+RouteRequest.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+SendBuffer.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+MaintBuffer.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Malicious.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Network_Layer_Ack.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+RouteError.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+RouteReply.obj : error LNK2001: unresolved external symbol _IP_COPY
+RouteRequest.obj : error LNK2001: unresolved external symbol _IP_COPY
+Malicious.obj : error LNK2001: unresolved external symbol _IP_COPY
+PacketProcessing.obj : error LNK2001: unresolved external symbol _IP_COPY
+RouteCache.obj : error LNK2001: unresolved external symbol _IP_COPY
+RouteError.obj : error LNK2001: unresolved external symbol _IP_COPY
+Malicious.obj : error LNK2019: unresolved external symbol _dsr_get_dev_ip referenced in function _fn_NetSim_DSR_MaliciousRouteAddToCache
+Network_Layer_Ack.obj : error LNK2001: unresolved external symbol _dsr_get_dev_ip
+RouteReply.obj : error LNK2001: unresolved external symbol _dsr_get_dev_ip
+Network_Layer_Ack.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol referenced in function _fn_NetSim_DSR_Process_AckRequestOption
+SendBuffer.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol
+Network_Layer_Ack.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_GenerateCtrlPacket referenced in function _fn_NetSim_DSR_Process_AckRequestOption
+RouteError.obj : error LNK2001: unresolved external symbol _fn_NetSim_DSR_GenerateCtrlPacket
+RouteReply.obj : error LNK2001: unresolved external symbol _fn_NetSim_DSR_GenerateCtrlPacket
+RouteRequest.obj : error LNK2001: unresolved external symbol _fn_NetSim_DSR_GenerateCtrlPacket
+SendBuffer.obj : error LNK2001: unresolved external symbol _IP_FREE
+PacketProcessing.obj : error LNK2001: unresolved external symbol _IP_FREE
+RouteCache.obj : error LNK2001: unresolved external symbol _IP_FREE
+RouteReply.obj : error LNK2001: unresolved external symbol _IP_FREE
+RouteRequest.obj : error LNK2001: unresolved external symbol _IP_FREE
+PacketProcessing.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetDeviceId_asIP referenced in function _fn_NetSim_DSR_GeneralPacketProcessing
+RouteError.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetDeviceId_asIP
+RouteReply.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetDeviceId_asIP
+PacketProcessing.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_LinkLayerAck referenced in function _fn_NetSim_DSR_GeneralPacketProcessing
+RouteCache.obj : error LNK2019: unresolved external symbol _list_free referenced in function _fn_NetSim_DSR_DeleteEntryFromRouteCache
+RouteRequest.obj : error LNK2001: unresolved external symbol _list_free
+SendBuffer.obj : error LNK2001: unresolved external symbol _list_free
+RouteError.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetIPAddressAsId referenced in function _fn_NetSim_DSR_GenerateRERR
+RouteReply.obj : error LNK2019: unresolved external symbol _fnDeleteEvent referenced in function _fn_NetSim_DSR_ForwardRREP
+RouteReply.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_GetBroadCastJitter referenced in function _fn_NetSim_DSR_GenerateRREP
+RouteRequest.obj : error LNK2001: unresolved external symbol _fn_NetSim_DSR_GetBroadCastJitter
+RouteRequest.obj : error LNK2019: unresolved external symbol _fnpReAllocateMemory_dbg referenced in function _fn_NetSim_DSR_ProcessRREQ
+SourceRoute.obj : error LNK2019: unresolved external symbol _fn_NetSim_DSR_FillAddress referenced in function _fn_NetSim_DSR_AddSourceRouteOption
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\Metrics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\Dll\libDSR.dll : fatal error LNK1120: 36 unresolved externals
